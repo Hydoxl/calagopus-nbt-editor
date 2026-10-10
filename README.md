@@ -1,32 +1,16 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/stef-oss/NBT-Editor-Calagopus/main/Branding/asdasasddasasd.png" alt="NBT Editor" width="800">
-</p>
+# Calagopus NBT Editor
 
-# NBT-Editor-Calagopus
-
-A simple NBT Editor extension for the Calagopus Panel.
+An NBT editor extension for Calagopus Panel, with support for Java and Bedrock NBT files.
 
 ## Installation
 
-1. Download the latest release from:
-   https://github.com/stef-oss/NBT-Editor-Calagopus/releases/tag/Main
-2. Go to your **Panel**
-3. Go to the **Extensions** page.
-4. **Upload** the downloaded extension.
-5. **Rebuild** your panel and you should be good to go!
+1. Download the `.c7s.zip` asset from [Releases](https://github.com/Hydoxl/calagopus-nbt-editor/releases).
+2. Upload it on your panel's **Extensions** page.
+3. Rebuild the panel to apply the extension.
+4. Open a `.dat` or `.nbt` file from a server's file manager.
 
-## Features
+The extension is compiled as part of the Calagopus workspace. The backend and frontend cannot be built independently from this repository.
 
--  Simple and lightweight NBT editor
--  Easy installation through the Calagopus extension system
--  Designed for Minecraft server management
+## Origin
 
-## Disclaimer
-
-This extension was partially written with the help of AI.
-
-
-
-
-![Requires Calagopus](https://raw.githubusercontent.com/calagopus/branding/main/img/badges/requires_calagopus_wide.svg)
-
+Based on [NBT-Editor-Calagopus by Stef](https://github.com/stef-oss/NBT-Editor-Calagopus).

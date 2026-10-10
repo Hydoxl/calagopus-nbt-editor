@@ -1,8 +1,9 @@
 [package]
-name = "cal_stef_nbteditor"
-description = "NBT reader for octopusorcalagopuswhatever."
-authors = ["Stef"]
-version = "1.0.2"
+name = "xyz_nm15_nbteditor"
+description = "NBT editor for Calagopus Panel."
+authors = ["NM15"]
+license = "Apache-2.0"
+version = "1.0.3"
 edition = { workspace = true }
 
 [dependencies]

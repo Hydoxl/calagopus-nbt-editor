@@ -1,4 +1,4 @@
-package_name = "cal.stef.nbteditor"
+package_name = "xyz.nm15.nbteditor"
 name = "NBT Editor"
-version = "1.0.2"
+version = "1.0.3"
 panel_version = ">=1.1.0"

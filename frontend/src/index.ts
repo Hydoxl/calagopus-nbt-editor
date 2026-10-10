@@ -153,7 +153,7 @@ function NbtFileManagerBridge() {
   return null;
 }
 
-class CalStefNbtEditorExtension extends Extension {
+class Nm15NbtEditorExtension extends Extension {
   public cardConfigurationPage: FC | null = null;
   public cardComponent: FC | null = null;
 
@@ -202,4 +202,4 @@ class CalStefNbtEditorExtension extends Extension {
   }
 }
 
-export default new CalStefNbtEditorExtension();
+export default new Nm15NbtEditorExtension();

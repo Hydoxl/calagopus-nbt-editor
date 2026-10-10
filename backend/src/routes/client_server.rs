@@ -181,7 +181,7 @@ async fn upload_file_bytes(
         },
     )?;
 
-    let mut url = node.public_url(state, "/upload/file").await?;
+    let mut url = node.public_url(state, None, "/upload/file").await?;
     url.set_query(Some(&format!(
         "token={}&directory={}",
         urlencoding::encode(&token),
