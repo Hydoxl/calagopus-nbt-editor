@@ -179,7 +179,7 @@ async fn upload_file_bytes(
             unique_id: uuid::Uuid::new_v4(),
             ignored_files: server.subuser_ignored_files.as_deref().unwrap_or(&[]),
         },
-    )?;
+    ).await?;
 
     let mut url = node.public_url(state, None, "/upload/file").await?;
     url.set_query(Some(&format!(
